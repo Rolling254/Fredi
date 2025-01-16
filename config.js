@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "5DcBAJZT#8SACMyft8hD78eeIzVNqLinQVGOjazFKk5yNFt_MRZM",
+SESSION_ID: process.env.SESSION_ID || "1H81xQwD#9KnfYusMg34MQFRGpWiN_PGYyTf6eX8SZXiWswIQCzw",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -49,7 +49,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-HEART_REACT: process.env.HEART_REACT || "true",
+HEART_REACT: process.env.HEART_REACT || "false",
 // make this true or false for heart reactions only 
 OWNER_REACT: process.env.OWNER_REACT || "true",
 // make it true or fasle for only react on owner msg only 
