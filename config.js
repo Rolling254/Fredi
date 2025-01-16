@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "5DcBAJZT#8SACMyft8hD78eeIzVNqLinQVGOjazFKk5yNFt_MRZM",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -17,7 +17,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255752593977",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "254727293652",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "✧FREDIE✧",
 // add bot owner name
@@ -25,7 +25,7 @@ DESCRIPTION: process.env.DESCRIPTION || "*© ✧FREDI MD✧*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/junvr3.jpeg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> HEYA ✧FREDI MD✧ IS ALIVE AND ACTIVE\n\n\nKEEP USING ✧FREDI MD✧ MADE BY FREDIE TECH⚡ *_regards frediezra_*",
+LIVE_MSG: process.env.LIVE_MSG || "> HEYA PRINCE IS ALIVE AND ACTIVE\n\n\nKEEP USING ✧FREDI MD✧ MADE BY FREDIE TECH⚡ *_regards frediezra_*",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -49,7 +49,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-HEART_REACT: process.env.HEART_REACT || "false",
+HEART_REACT: process.env.HEART_REACT || "true",
 // make this true or false for heart reactions only 
 OWNER_REACT: process.env.OWNER_REACT || "true",
 // make it true or fasle for only react on owner msg only 
